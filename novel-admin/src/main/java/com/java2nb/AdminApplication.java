@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching
 public class AdminApplication {
     public static void main(String[] args) {
-        System.out.println("后台开始启动。。。。。。。。。。");
+        System.out.println("后台开始启动。。。。。。。。。。。");
         SpringApplication.run(AdminApplication.class, args);
     }
 
